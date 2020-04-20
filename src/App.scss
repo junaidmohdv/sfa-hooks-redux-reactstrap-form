@@ -1,0 +1,28 @@
+
+//variable overrides
+$body-bg: #0e111b;
+$body-color: #FFF;
+
+$theme-colors:(
+  "primary":    #2475C8,
+  "success":    #1C835F,
+  "danger":     rgb(221, 29, 41)
+);
+
+$danger: rgb(221, 29, 41);
+$input-bg: rgb(43, 49, 68);
+$input-disabled-bg: #2D3250;
+$input-color: #FFF;
+$link-color:#2475C8 ;
+$input-border-color: #2A3144;
+$gray-800: #2A3144;
+$navbar-light-color: rgba(255, 255, 255, 0.5);
+$custom-radio-checked-color:$danger;
+$border-color:#2A3144;
+$table-bg: rgb(26, 32, 51);
+$custom-container-background: rgb(26, 32, 51);
+$btn-border-radius: 20px;
+
+
+
+@import "node_modules/bootstrap/scss/bootstrap";
